@@ -34,15 +34,15 @@
     </nav>
   </div>
 </header>
-
 <section class="hero">
-  <img src="rooms-img-1.jpg" alt="Hero Image" class="hero-image" />
+  <img src="Hero/rooms-img-1.jpg"alt="Aeris Cave Resort Image" />
   <div class="hero-content">
-    <h1>71 rooms, 71 unique stories</h1>
-    <p>Each room at Aeris is different, but every room exudes a common design language, converging traditional Cappadocia aesthetic with refined details as well as an aim of sustainability in the choice of amenities.</p>
+    <h1>Cave Suites</h1>
+    <p>71 rooms, 71 unique stories</p>
     <a href="contact.html" class="btn">Book Now</a>
   </div>
 </section>
+
 <!-- ROOMS SECTION -->
 <section class="rooms-list">
   <div class="rooms-wrapper">
@@ -50,13 +50,13 @@
     <!-- ROOM 1 -->
     <div class="room-row autoShow">
       <div class="room-carousel">
-        <button class="carousel-btn left"></button>
+      
         <div class="carousel-track" id="carousel0">
           <img src="rooms_images/room1.1.jpeg">
           <img src="rooms_images/room1.2.jpeg">
           <img src="rooms_images/room1.3.jpeg">
         </div>
-        <button class="carousel-btn right"></button>
+        
       </div>
       <div class="room-details">
         <h2>Standard Cave Room</h2>
@@ -70,20 +70,24 @@
           <li>With or without windows</li>
           <li>Fireplace available</li>
         </ul>
-        <a href="#" class="room-btn">Explore Room</a>
+       <span>From $120 per night</span>
       </div>
     </div>
 
     <!-- ROOM 2 -->
     <div class="room-row reverse autoShow">
       <div class="room-carousel">
-        <button class="carousel-btn left"></button>
-        <div class="carousel-track" id="carousel1">
-          <img src="rooms_images/room2.1.jpeg">
-          <img src="rooms_images/room2.2.jpeg">
-          <img src="rooms_images/room2.3.jpeg">
+      
+        <div class="carousel-track">
+          <img id="slide-1" src="rooms_images/room2.1.jpeg">
+          <img id="slide-2" src="rooms_images/room2.2.jpeg">
+          <img id="slide-3" src="rooms_images/room2.3.jpeg">
         </div>
-        <button class="carousel-btn right"></button>
+        <div class="carousel-nav">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+        </div>
       </div>
       <div class="room-details">
         <h2>Deluxe Cave Room</h2>
@@ -97,20 +101,20 @@
           <li>With or without windows</li>
           <li>Fireplace available</li>
         </ul>
-        <a href="#" class="room-btn">Explore Room</a>
+        <span>From $250 per night</span>
       </div>
     </div>
 
     <!-- ROOM 3 -->
     <div class="room-row autoShow">
       <div class="room-carousel">
-        <button class="carousel-btn left" ></button>
-        <div class="carousel-track" id="carousel2">
+        
+        <div class="carousel-track">
           <img src="rooms_images/room3.1.jpeg">
           <img src="rooms_images/room3.2.jpeg">
           <img src="rooms_images/room3.3.jpeg">
         </div>
-        <button class="carousel-btn right"></button>
+        
       </div>
       <div class="room-details">
         <h2>Cave Suite</h2>
@@ -124,20 +128,20 @@
           <li>With or without windows</li>
           <li>Fireplace available</li>
         </ul>
-        <a href="#" class="room-btn">Explore Room</a>
+        <span>From $370 per night</span>
       </div>
     </div>
 
     <!-- ROOM 4 -->
     <div class="room-row reverse autoShow">
       <div class="room-carousel">
-        <button class="carousel-btn left"></button>
-        <div class="carousel-track" id="carousel3">
+      
+        <div class="carousel-track">
           <img src="rooms_images/room4.1.jpeg">
           <img src="rooms_images/room4.2.jpeg">
           <img src="rooms_images/room4.3.jpeg">
         </div>
-        <button class="carousel-btn right"></button>
+        
       </div>
       <div class="room-details">
         <h2>Premium Cave Suite</h2>
@@ -151,20 +155,20 @@
           <li>With or without windows</li>
           <li>Fireplace available</li>
         </ul>
-        <a href="#" class="room-btn">Explore Room</a>
+        <span>From $450 per night</span>
       </div>
     </div>
 
     <!-- ROOM 5 -->
     <div class="room-row autoShow">
       <div class="room-carousel">
-        <button class="carousel-btn left"></button>
-        <div class="carousel-track" id="carousel4">
+      
+        <div class="carousel-track">
           <img src="rooms_images/room5.1.jpeg">
           <img src="rooms_images/room5.2.jpeg">
           <img src="rooms_images/room5.3.jpeg">
         </div>
-        <button class="carousel-btn right"></button>
+        
       </div>
       <div class="room-details">
         <h2>Luxury Cave Villa</h2>
@@ -178,7 +182,7 @@
           <li>With or without windows</li>
           <li>Fireplace available</li>
         </ul>
-        <a href="#" class="room-btn">Explore Room</a>
+        <span>From $560 per night</span>
       </div>
     </div>
 
@@ -186,8 +190,10 @@
 </section>
 
 
-<footer class="footer">
-  <p>© 2025 Aeris Cave Resort. All Rights Reserved.</p>
+<footer>
+  <p>
+    <a href = "home.html">© 2025 Aeris Cave Resort. All Rights Reserved.</a>
+  </p>
 </footer>
 
 </body>
