@@ -69,13 +69,12 @@ header:hover {
 }
 
 header:hover nav ul li a {
-  color: hsl(var(--orange-primary-color)/0.8);
+  color: hsl(var(--orange-primary-color) / 0.8);
 }
 
 header:hover nav ul li.active a {
-  border-bottom: 2px solid hsl(var(--orange-primary-color)/0.8);
+  border-bottom: 2px solid hsl(var(--orange-primary-color) / 0.8);
 }
-
 
 .navigation {
   max-width: 1200px;
@@ -84,6 +83,7 @@ header:hover nav ul li.active a {
   justify-content: space-between;
   align-items: center;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -96,42 +96,25 @@ nav ul li a {
   letter-spacing: 1px;
   color: #fff;
   padding-bottom: 6px;
-  transition: 0.3s ease;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease;
 }
 
 nav ul li.active a {
   border-bottom: 2px solid hsl(var(--orange-primary-color));
 }
 
-nav ul li a {
-  text-decoration: none;
-  font-size: var(--fs-200);
-  letter-spacing: 1px;
-  color: #fff;
-  padding-bottom: 6px;
-  transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease;
-  display: inline-block;
-}
-
 nav ul li a:hover {
   color: hsl(var(--orange-primary-color));
   transform: scale(1.1);
   letter-spacing: 1.5px;
 }
-nav ul li a {
-  transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease;
-  display: inline-block;
-}
 
-nav ul li a:hover {
-  color: hsl(var(--orange-primary-color));
-  transform: scale(1.1);
-  letter-spacing: 1.5px;
-}
 .logo img {
-   height: 60px;
+  height: 60px;
   width: 60px;
 }
+
 
 /* HERO */
 .hero {
